@@ -1,0 +1,5 @@
+osszeg = float(input("Berakott összeg? (Ft)"))
+evesKamat = float(input("Mekkora az éves kamat? (%)"))
+honapokSzama = float(input("Mennyi hónapra számtsak? "))
+kiszamoltOsszeg = osszeg * pow(1+evesKamat/100, honapokSzama/12)
+print(honapokSzama, "hónap múlva ", round(kiszamoltOsszeg,0), "Ft-ot vehetek ki")

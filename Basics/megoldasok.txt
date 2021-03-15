@@ -1,0 +1,3 @@
+py_1_a: macska
+py_1_b: dinnye
+py_1_c: invalid charachter (-)
